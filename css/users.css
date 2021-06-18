@@ -1,0 +1,47 @@
+.container header {
+    text-align: center;
+    height: 40px;
+    width: 80%;
+    background-color: #77ACF1;
+    color: white;
+    margin-top: 4px;
+}
+
+.cards {
+    min-height: 80vh;
+    width: 100%;
+    display: flex;
+    margin: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    height: 250px;
+    width: 300px;
+    text-align: center;
+    margin: 2px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.card img {
+    height: 40%;
+    width: 90%;
+    object-fit: contain;
+}
+
+.card h4 {
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.role {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-danger {
+    margin-bottom: 10px;
+    margin-left: 5px;
+}

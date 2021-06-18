@@ -1,0 +1,37 @@
+.blogCard {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.blogCard>div {
+    margin: 5px;
+    height: 300px;
+    width: 300px;
+    border: 1px solid lightgray;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    padding: 5px;
+}
+
+.blogCard>div>.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 5px;
+}
+
+.blogCard>div>.header>a {
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    width: 65px;
+    padding: 3px;
+    transition: .3s;
+    text-align: center;
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+.blogCard>div>.header>a:hover {
+    transform: scale(1.1);
+}
